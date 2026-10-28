@@ -1,0 +1,502 @@
+{
+  "name": "Pi 中文学习文档",
+  "version": "latest",
+  "repository": "https://github.com/CBx-2023/pi-zh-docs",
+  "base": "/pi-zh-docs",
+  "navigation": [
+    {
+      "label": "快速开始",
+      "items": [
+        {
+          "label": "概览",
+          "path": "docs/latest"
+        },
+        {
+          "label": "快速入门",
+          "path": "docs/latest/quickstart"
+        },
+        {
+          "label": "Pi 的工作原理",
+          "path": "docs/latest/how-pi-works"
+        }
+      ]
+    },
+    {
+      "label": "使用指南",
+      "items": [
+        {
+          "label": "运行 Pi",
+          "items": [
+            {
+              "label": "在终端中使用 Pi",
+              "path": "docs/latest/usage"
+            },
+            {
+              "label": "选择模型",
+              "path": "docs/latest/models"
+            },
+            {
+              "label": "管理会话与上下文",
+              "path": "docs/latest/sessions"
+            },
+            {
+              "label": "安全使用 Pi",
+              "path": "docs/latest/security"
+            },
+            {
+              "label": "隔离运行 Pi",
+              "path": "docs/latest/containerization"
+            },
+            {
+              "label": "运行本地模型",
+              "path": "docs/latest/llama-cpp"
+            },
+            {
+              "label": "在 NVIDIA RTX 上运行本地模型",
+              "path": "docs/latest/nvidia-rtx-llama-cpp"
+            },
+            {
+              "label": "配置终端",
+              "path": "docs/latest/terminal-setup"
+            },
+            {
+              "label": "配置 Shell 命令",
+              "path": "docs/latest/shell-aliases"
+            },
+            {
+              "label": "在 tmux 中运行 Pi",
+              "path": "docs/latest/tmux"
+            },
+            {
+              "label": "在 Windows 上运行 Pi",
+              "path": "docs/latest/windows"
+            },
+            {
+              "label": "在 Android 上运行 Pi",
+              "path": "docs/latest/termux"
+            }
+          ]
+        },
+        {
+          "label": "定制 Pi",
+          "items": [
+            {
+              "label": "配置 Pi",
+              "path": "docs/latest/configuration"
+            },
+            {
+              "label": "创建提示模板",
+              "path": "docs/latest/prompt-templates"
+            },
+            {
+              "label": "添加 Skills",
+              "path": "docs/latest/skills"
+            },
+            {
+              "label": "创建主题",
+              "path": "docs/latest/themes"
+            },
+            {
+              "label": "使用 Pi 包",
+              "path": "docs/latest/packages"
+            },
+            {
+              "label": "连接 MCP Server",
+              "path": "docs/latest/mcp"
+            }
+          ]
+        },
+        {
+          "label": "基于 Pi 构建",
+          "items": [
+            {
+              "label": "构建扩展",
+              "path": "docs/latest/extensions"
+            },
+            {
+              "label": "添加自定义提供商",
+              "path": "docs/latest/custom-provider"
+            },
+            {
+              "label": "通过虚拟模型路由",
+              "path": "docs/latest/virtual-models"
+            },
+            {
+              "label": "构建终端 UI 组件",
+              "path": "docs/latest/tui"
+            },
+            {
+              "label": "通过 CLI 集成",
+              "path": "docs/latest/cli-integration"
+            },
+            {
+              "label": "使用 SDK",
+              "path": "docs/latest/sdk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "参考手册",
+      "items": [
+        {
+          "label": "CLI",
+          "path": "docs/latest/cli"
+        },
+        {
+          "label": "Codemode",
+          "path": "docs/latest/codemode"
+        },
+        {
+          "label": "斜杠命令",
+          "path": "docs/latest/slash-commands"
+        },
+        {
+          "label": "设置",
+          "path": "docs/latest/settings"
+        },
+        {
+          "label": "模型配置",
+          "path": "docs/latest/models-configuration"
+        },
+        {
+          "label": "环境变量",
+          "path": "docs/latest/environment-variables"
+        },
+        {
+          "label": "快捷键",
+          "path": "docs/latest/keybindings"
+        },
+        {
+          "label": "模型提供商",
+          "path": "docs/latest/providers"
+        },
+        {
+          "label": "会话文件格式",
+          "path": "docs/latest/session-format"
+        },
+        {
+          "label": "上下文压缩与分支摘要",
+          "path": "docs/latest/compaction"
+        },
+        {
+          "label": "JSON 事件流",
+          "path": "docs/latest/json"
+        },
+        {
+          "label": "RPC 协议",
+          "path": "docs/latest/rpc"
+        },
+        {
+          "label": "RPC 命令",
+          "path": "docs/latest/rpc-commands"
+        },
+        {
+          "label": "RPC 扩展 UI",
+          "path": "docs/latest/rpc-extension-ui"
+        },
+        {
+          "label": "消息类型",
+          "path": "docs/latest/message-types"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "source": "index.md",
+      "path": "docs/latest",
+      "label": "概览",
+      "group": "快速开始",
+      "status": "translated"
+    },
+    {
+      "source": "quickstart.md",
+      "path": "docs/latest/quickstart",
+      "label": "快速入门",
+      "group": "快速开始",
+      "status": "translated"
+    },
+    {
+      "source": "how-pi-works.md",
+      "path": "docs/latest/how-pi-works",
+      "label": "Pi 的工作原理",
+      "group": "快速开始",
+      "status": "translated"
+    },
+    {
+      "source": "usage.md",
+      "path": "docs/latest/usage",
+      "label": "在终端中使用 Pi",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "models.md",
+      "path": "docs/latest/models",
+      "label": "选择模型",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "sessions.md",
+      "path": "docs/latest/sessions",
+      "label": "管理会话与上下文",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "security.md",
+      "path": "docs/latest/security",
+      "label": "安全使用 Pi",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "containerization.md",
+      "path": "docs/latest/containerization",
+      "label": "隔离运行 Pi",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "llama-cpp.md",
+      "path": "docs/latest/llama-cpp",
+      "label": "运行本地模型",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "nvidia-rtx-llama-cpp.md",
+      "path": "docs/latest/nvidia-rtx-llama-cpp",
+      "label": "在 NVIDIA RTX 上运行本地模型",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "terminal-setup.md",
+      "path": "docs/latest/terminal-setup",
+      "label": "配置终端",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "shell-aliases.md",
+      "path": "docs/latest/shell-aliases",
+      "label": "配置 Shell 命令",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "tmux.md",
+      "path": "docs/latest/tmux",
+      "label": "在 tmux 中运行 Pi",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "windows.md",
+      "path": "docs/latest/windows",
+      "label": "在 Windows 上运行 Pi",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "termux.md",
+      "path": "docs/latest/termux",
+      "label": "在 Android 上运行 Pi",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "configuration.md",
+      "path": "docs/latest/configuration",
+      "label": "配置 Pi",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "prompt-templates.md",
+      "path": "docs/latest/prompt-templates",
+      "label": "创建提示模板",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "skills.md",
+      "path": "docs/latest/skills",
+      "label": "添加 Skills",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "themes.md",
+      "path": "docs/latest/themes",
+      "label": "创建主题",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "packages.md",
+      "path": "docs/latest/packages",
+      "label": "使用 Pi 包",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "mcp.md",
+      "path": "docs/latest/mcp",
+      "label": "连接 MCP Server",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "extensions.md",
+      "path": "docs/latest/extensions",
+      "label": "构建扩展",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "custom-provider.md",
+      "path": "docs/latest/custom-provider",
+      "label": "添加自定义提供商",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "virtual-models.md",
+      "path": "docs/latest/virtual-models",
+      "label": "通过虚拟模型路由",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "tui.md",
+      "path": "docs/latest/tui",
+      "label": "构建终端 UI 组件",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "cli-integration.md",
+      "path": "docs/latest/cli-integration",
+      "label": "通过 CLI 集成",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "sdk.md",
+      "path": "docs/latest/sdk",
+      "label": "使用 SDK",
+      "group": "使用指南",
+      "status": "translated"
+    },
+    {
+      "source": "cli.md",
+      "path": "docs/latest/cli",
+      "label": "CLI",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "codemode.md",
+      "path": "docs/latest/codemode",
+      "label": "Codemode",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "slash-commands.md",
+      "path": "docs/latest/slash-commands",
+      "label": "斜杠命令",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "settings.md",
+      "path": "docs/latest/settings",
+      "label": "设置",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "models-configuration.md",
+      "path": "docs/latest/models-configuration",
+      "label": "模型配置",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "environment-variables.md",
+      "path": "docs/latest/environment-variables",
+      "label": "环境变量",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "keybindings.md",
+      "path": "docs/latest/keybindings",
+      "label": "快捷键",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "providers.md",
+      "path": "docs/latest/providers",
+      "label": "模型提供商",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "session-format.md",
+      "path": "docs/latest/session-format",
+      "label": "会话文件格式",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "compaction.md",
+      "path": "docs/latest/compaction",
+      "label": "上下文压缩与分支摘要",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "json.md",
+      "path": "docs/latest/json",
+      "label": "JSON 事件流",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "rpc.md",
+      "path": "docs/latest/rpc",
+      "label": "RPC 协议",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "rpc-commands.md",
+      "path": "docs/latest/rpc-commands",
+      "label": "RPC 命令",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "rpc-extension-ui.md",
+      "path": "docs/latest/rpc-extension-ui",
+      "label": "RPC 扩展 UI",
+      "group": "参考手册",
+      "status": "translated"
+    },
+    {
+      "source": "message-types.md",
+      "path": "docs/latest/message-types",
+      "label": "消息类型",
+      "group": "参考手册",
+      "status": "translated"
+    }
+  ]
+}

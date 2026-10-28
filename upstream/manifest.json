@@ -1,0 +1,300 @@
+{
+  "repository": "https://github.com/earendil-works/pi",
+  "commit": "a92283056d915c758799fcd904948ff0cb42628c",
+  "version": "latest",
+  "retrievedAt": "2026-10-28",
+  "files": [
+    {
+      "path": "index.md",
+      "sourcePath": "packages/coding-agent/docs/index.md",
+      "sha256": "c107426e88eac570e9ecbea325cb45c2a6b778a324fd6e424bd032380a65614d",
+      "bytes": 2507
+    },
+    {
+      "path": "quickstart.md",
+      "sourcePath": "packages/coding-agent/docs/quickstart.md",
+      "sha256": "10c69b394304f6e7d6409b6bde02b0165f5723ff4acfd49cfa8f7414f977266a",
+      "bytes": 4741
+    },
+    {
+      "path": "how-pi-works.md",
+      "sourcePath": "packages/coding-agent/docs/how-pi-works.md",
+      "sha256": "7d43ab8e2b886cd1047dcee503588a1c828b92333dd4f177526b89e6db8aaa8b",
+      "bytes": 3300
+    },
+    {
+      "path": "usage.md",
+      "sourcePath": "packages/coding-agent/docs/usage.md",
+      "sha256": "6dfe7446c81d601d5ebef5769523115229f802da364fe90fcdf96e322ae9fbcd",
+      "bytes": 5381
+    },
+    {
+      "path": "models.md",
+      "sourcePath": "packages/coding-agent/docs/models.md",
+      "sha256": "c9914f5411db5ddd158b5391ec1da76c1f65788cfaea3a90e1e1555451b3d12e",
+      "bytes": 13992
+    },
+    {
+      "path": "sessions.md",
+      "sourcePath": "packages/coding-agent/docs/sessions.md",
+      "sha256": "152d6489f61a6de9349c8ceaade95d5498fbc74f21771f41ba8e87ce0e5d8936",
+      "bytes": 4818
+    },
+    {
+      "path": "security.md",
+      "sourcePath": "packages/coding-agent/docs/security.md",
+      "sha256": "3b1e40a8d28b17c9eb7e496a7ba88fbe04665e3e6ae02873a58b943e325ad504",
+      "bytes": 6542
+    },
+    {
+      "path": "containerization.md",
+      "sourcePath": "packages/coding-agent/docs/containerization.md",
+      "sha256": "e309fcb9a0a7592c0dba000ef8ee90f2d7ef1e01e6a1ac2f0cd9760dd63dee0c",
+      "bytes": 7589
+    },
+    {
+      "path": "llama-cpp.md",
+      "sourcePath": "packages/coding-agent/docs/llama-cpp.md",
+      "sha256": "fb96d601246321d9cc3179fbe15ee47b064ddb6ad78e4827af34222bcad83a63",
+      "bytes": 7531
+    },
+    {
+      "path": "nvidia-rtx-llama-cpp.md",
+      "sourcePath": "packages/coding-agent/docs/nvidia-rtx-llama-cpp.md",
+      "sha256": "bcd12ebfd283d8f528cf206ee4ec74f981ab36d3604419acc434c595decbebdb",
+      "bytes": 4290
+    },
+    {
+      "path": "terminal-setup.md",
+      "sourcePath": "packages/coding-agent/docs/terminal-setup.md",
+      "sha256": "583381fb9dc466135a865ca406a3be299a7a8da2c9d810c5b73f401912a0a357",
+      "bytes": 9093
+    },
+    {
+      "path": "shell-aliases.md",
+      "sourcePath": "packages/coding-agent/docs/shell-aliases.md",
+      "sha256": "ebb55456870455b4da91cfd054ae2ac9b3a417e6ff48a009587c33e68ecd7807",
+      "bytes": 3172
+    },
+    {
+      "path": "tmux.md",
+      "sourcePath": "packages/coding-agent/docs/tmux.md",
+      "sha256": "9ec0abdbf74c57d51d4a93f308fb4aec4d8a3574a24cbfd9ba481d2e39f1273c",
+      "bytes": 1813
+    },
+    {
+      "path": "windows.md",
+      "sourcePath": "packages/coding-agent/docs/windows.md",
+      "sha256": "e5a51792381a9eec859f034153c67f9ff52c36d3cff4c7a1faa0651f77f627c3",
+      "bytes": 3660
+    },
+    {
+      "path": "termux.md",
+      "sourcePath": "packages/coding-agent/docs/termux.md",
+      "sha256": "1b0687157f2384385d07800ec23e6c225ef28fbf6648f55453cc7ce62f4c64ea",
+      "bytes": 3590
+    },
+    {
+      "path": "configuration.md",
+      "sourcePath": "packages/coding-agent/docs/configuration.md",
+      "sha256": "fc48d1ce7d885c5253222415fb7a4b46d75f80e6431eb924174657ff775099eb",
+      "bytes": 3239
+    },
+    {
+      "path": "prompt-templates.md",
+      "sourcePath": "packages/coding-agent/docs/prompt-templates.md",
+      "sha256": "ad5113cce0d05ef0ac77b3c71f9ebe41ea68c072275f9273b9616e4924feda42",
+      "bytes": 2490
+    },
+    {
+      "path": "skills.md",
+      "sourcePath": "packages/coding-agent/docs/skills.md",
+      "sha256": "5b9805525b194474ef1fe5455a0917ef15ed7f710aa9bec2eee11879556469e5",
+      "bytes": 4793
+    },
+    {
+      "path": "themes.md",
+      "sourcePath": "packages/coding-agent/docs/themes.md",
+      "sha256": "6f11eb43ca6dad4c71bcfa2fc72ac13c013e3cb9383688b88923e0139b2d097c",
+      "bytes": 8069
+    },
+    {
+      "path": "packages.md",
+      "sourcePath": "packages/coding-agent/docs/packages.md",
+      "sha256": "0f899bea101fc7c2f2efccf4cfc4da34d1e5ddda2009b2a71fd8b303f8c639c5",
+      "bytes": 6428
+    },
+    {
+      "path": "mcp.md",
+      "sourcePath": "packages/coding-agent/docs/mcp.md",
+      "sha256": "23b9cca35d1340e8adce6bed8b495da0ebb58931179a937db87d610a1b40b9bf",
+      "bytes": 19870
+    },
+    {
+      "path": "extensions.md",
+      "sourcePath": "packages/coding-agent/docs/extensions.md",
+      "sha256": "2a1ddaffc2c0879ade56da8343c7296ab8d6aeb735935ae9bbf29263aa9a501f",
+      "bytes": 153903
+    },
+    {
+      "path": "custom-provider.md",
+      "sourcePath": "packages/coding-agent/docs/custom-provider.md",
+      "sha256": "78e01e866af7969e2d8e70937988bc0fb7b4a2a43bc25aab665c3549e169971f",
+      "bytes": 12737
+    },
+    {
+      "path": "virtual-models.md",
+      "sourcePath": "packages/coding-agent/docs/virtual-models.md",
+      "sha256": "5ab04dee3b3712b317522bb0784e28a3fef2e6b7fe1aeb1c1ca27778685a38f7",
+      "bytes": 8177
+    },
+    {
+      "path": "tui.md",
+      "sourcePath": "packages/coding-agent/docs/tui.md",
+      "sha256": "cf60a7a1f0f47e2b7a4e9372996398bca98a2e9489b985bcdd5e7cd7d0df4a54",
+      "bytes": 12105
+    },
+    {
+      "path": "cli-integration.md",
+      "sourcePath": "packages/coding-agent/docs/cli-integration.md",
+      "sha256": "edf8e723a70b4c3c40275db0391219e55d30597936212a9cfdef33963dd37f93",
+      "bytes": 6285
+    },
+    {
+      "path": "sdk.md",
+      "sourcePath": "packages/coding-agent/docs/sdk.md",
+      "sha256": "d9034ccbf2219a58712d8dd4fcdf47e687d77131e71dd5d119d8a71e9bd2a2e8",
+      "bytes": 10147
+    },
+    {
+      "path": "cli.md",
+      "sourcePath": "packages/coding-agent/docs/cli.md",
+      "sha256": "a734c3d3bf26e157252d623d350a0f6fab661e20f76ac25e90db86894f01b305",
+      "bytes": 17225
+    },
+    {
+      "path": "codemode.md",
+      "sourcePath": "packages/coding-agent/docs/codemode.md",
+      "sha256": "3a96ee10da36395bbd22beb60ac029f8ca8a859f2fd3c3104cfc38f9d5a1f95a",
+      "bytes": 14585
+    },
+    {
+      "path": "slash-commands.md",
+      "sourcePath": "packages/coding-agent/docs/slash-commands.md",
+      "sha256": "e4a8422f7fdfaca8e7d5fbcabccb15b56eabbfebc4498f6b9398f7fc1a5d1b88",
+      "bytes": 2741
+    },
+    {
+      "path": "settings.md",
+      "sourcePath": "packages/coding-agent/docs/settings.md",
+      "sha256": "34e78015cb6bbab517502ece8c99d16bc18a6f92e8f0dbc740a0c9e45bb79ff8",
+      "bytes": 13910
+    },
+    {
+      "path": "models-configuration.md",
+      "sourcePath": "packages/coding-agent/docs/models-configuration.md",
+      "sha256": "1eb60b0f1faad6f9fffd62ea257b545dbc983dbe4c5decc4803b1a241d604155",
+      "bytes": 20716
+    },
+    {
+      "path": "environment-variables.md",
+      "sourcePath": "packages/coding-agent/docs/environment-variables.md",
+      "sha256": "4df216de7677400b4a41392ada0ea5b31ecadba5a263024eda87c29f77d69ce1",
+      "bytes": 5766
+    },
+    {
+      "path": "keybindings.md",
+      "sourcePath": "packages/coding-agent/docs/keybindings.md",
+      "sha256": "413aa1c5e95a934d216aa5aba20052fa2cf35940ba5f02d1f4b22ff53c6ec678",
+      "bytes": 10658
+    },
+    {
+      "path": "providers.md",
+      "sourcePath": "packages/coding-agent/docs/providers.md",
+      "sha256": "bc8798e4cc3209e455e3dc50c6652ae73c057d40122a4a741d8b5b65a041c2f1",
+      "bytes": 9681
+    },
+    {
+      "path": "session-format.md",
+      "sourcePath": "packages/coding-agent/docs/session-format.md",
+      "sha256": "4f8fc42179b332bcf71fe4c85cc95d914853ff7486d68742954a45316b512a4a",
+      "bytes": 15766
+    },
+    {
+      "path": "compaction.md",
+      "sourcePath": "packages/coding-agent/docs/compaction.md",
+      "sha256": "b5b23d10bb86d8ab32b67f80a7e57febd953222c6da6fd422ae91d232ef28faf",
+      "bytes": 24093
+    },
+    {
+      "path": "json.md",
+      "sourcePath": "packages/coding-agent/docs/json.md",
+      "sha256": "f103191816fdcf3627dfc98b89acad8a28eee737697130ddaeb2581131213543",
+      "bytes": 11106
+    },
+    {
+      "path": "rpc.md",
+      "sourcePath": "packages/coding-agent/docs/rpc.md",
+      "sha256": "37a03d180115460a0a275022f4aeabef1e5345458df6a9b6e8a6de18474de720",
+      "bytes": 8897
+    },
+    {
+      "path": "rpc-commands.md",
+      "sourcePath": "packages/coding-agent/docs/rpc-commands.md",
+      "sha256": "4deeee367852f4633ef594bc079f9e9fb14640a4e3ba8a69b7c89b6f54740838",
+      "bytes": 21482
+    },
+    {
+      "path": "rpc-extension-ui.md",
+      "sourcePath": "packages/coding-agent/docs/rpc-extension-ui.md",
+      "sha256": "3c6f2c6edfc8b1ace6642343727aef97a7e9234c85509850921b52d6ff09a48e",
+      "bytes": 6174
+    },
+    {
+      "path": "message-types.md",
+      "sourcePath": "packages/coding-agent/docs/message-types.md",
+      "sha256": "78bb9c295e88948c9bdb23e7c75a66a0e2703601c48d731fda01d24664dcf63a",
+      "bytes": 7569
+    },
+    {
+      "path": "docs.json",
+      "sourcePath": "packages/coding-agent/docs/docs.json",
+      "sha256": "fc0bccd6bf66716ad1067d4fbf7258f674d89c89a12cb0b2587a027b9d7fdc49",
+      "bytes": 5134
+    },
+    {
+      "path": "LICENSE",
+      "sourcePath": "LICENSE",
+      "sha256": "0457f5bcec3b3b211605dfb5d1a49042fd638f3686a410fe099c24a25af13c48",
+      "bytes": 1069
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/docs/latest/images/tree-view.png",
+      "sourcePath": "packages/coding-agent/docs/images/tree-view.png",
+      "sha256": "ca61e7bbf300dfb3840cc191dc66dc4e9f5166b2f1f4089e6fb13fd04a2c3c66"
+    },
+    {
+      "path": "public/docs/latest/images/interactive-mode.png",
+      "sourcePath": "packages/coding-agent/docs/images/interactive-mode.png",
+      "sha256": "4078001e39978151bd66b1d0a20123e7ca2ec2d1b572dfd70f552be5e88c0692"
+    },
+    {
+      "path": "public/docs/latest/images/doom-extension.png",
+      "sourcePath": "packages/coding-agent/docs/images/doom-extension.png",
+      "sha256": "c3b89b5e1fba711a5bcfa188e13d8695a84f7cdda12d9e127bb45b36d13cbb27"
+    },
+    {
+      "path": "public/docs/latest/images/exy.png",
+      "sourcePath": "packages/coding-agent/docs/images/exy.png",
+      "sha256": "a8f253347440aed01ff659f41f573d340bcfd6010d829726ae92fe18abf601de"
+    }
+  ],
+  "headingSnapshot": {
+    "path": "upstream/headings.json",
+    "origin": "https://pi.dev/docs/latest/",
+    "capturedAt": "2026-10-28",
+    "sha256": "f82202d095558fcad1eb46fa610f919c25919e4d477232ed4b6818ca03fd32be"
+  }
+}

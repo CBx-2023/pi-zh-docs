@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "pi-zh-docs",
+  "account_id": "df9c0809da347a34b2bf7605e852c142",
+  "compatibility_date": "2026-10-28",
+  "assets": { "directory": "./deploy", "not_found_handling": "404-page" },
+  "routes": [
+    { "pattern": "docs.starlandai.com/pi-zh-docs", "zone_name": "starlandai.com" },
+    { "pattern": "docs.starlandai.com/pi-zh-docs/*", "zone_name": "starlandai.com" }
+  ]
+}

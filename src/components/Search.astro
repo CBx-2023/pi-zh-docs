@@ -1,0 +1,23 @@
+---
+import '@pagefind/default-ui/css/ui.css';
+---
+<dialog id="search-dialog" aria-label="搜索文档"><button class="close-search" aria-label="关闭搜索">Esc</button><div id="search-results"/></dialog>
+<script>
+ const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+ let initialized=false;
+ const dialog=document.getElementById('search-dialog') as HTMLDialogElement;
+ async function open(){
+  dialog.showModal();
+  if(!initialized){
+   initialized=true;
+   // @ts-expect-error Pagefind's default UI package does not publish TypeScript declarations.
+   const {PagefindUI}=await import('@pagefind/default-ui');
+   new PagefindUI({element:'#search-results',bundlePath:`${base}/pagefind/`,baseUrl:`${base}/`,showImages:false,showSubResults:true,translations:{placeholder:'搜索中文文档',search_label:'搜索中文文档',clear_search:'清空',load_more:'加载更多',searching:'正在搜索 [SEARCH_TERM]…',zero_results:'未找到与 [SEARCH_TERM] 相关的结果',many_results:'找到 [COUNT] 个与 [SEARCH_TERM] 相关的结果',one_result:'找到 1 个与 [SEARCH_TERM] 相关的结果'}});
+  }
+  dialog.querySelector('input')?.focus();
+ }
+ document.querySelectorAll('[data-open-search]').forEach(button=>button.addEventListener('click',open));
+ dialog.querySelector('.close-search')?.addEventListener('click',()=>dialog.close());
+ dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
+ document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();dialog.open?dialog.close():open()}});
+</script>

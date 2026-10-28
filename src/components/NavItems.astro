@@ -1,0 +1,7 @@
+---
+import{local}from'../lib/navigation';
+interface Item{label:string;path?:string;items?:Item[]}
+interface Props{items:Item[];current:string}
+const{items,current}=Astro.props;
+---
+<ul>{items.map(item=><li>{item.path?<a href={local(item.path)} aria-current={item.path===current?'page':undefined}>{item.label}</a>:<details open><summary>{item.label}</summary><Astro.self items={item.items||[]} current={current}/></details>}</li>)}</ul>

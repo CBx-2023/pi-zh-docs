@@ -1,0 +1,17 @@
+node_modules/
+dist/
+deploy/
+.astro/
+.wrangler/
+src/content/docs/
+src/generated/
+.DS_Store
+.env
+.env.*
+.dev.vars*
+reports/
+.work/
+public/docs/**/*.md
+public/_redirects
+public/upstream-license.txt
+public/source-manifest.json
